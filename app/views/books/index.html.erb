@@ -1,2 +1,16 @@
 <h1>Books</h1>
 <p>Book Collection 1</p>
+
+<p> Application made by <%= @created_by %> </p>
+
+<br /> 
+<ul>
+<% @tasks.each do |task| %>
+    <li><%= task %></li>
+<% end %>
+</ul>
+
+<% x = 1 + 1 %><br />
+<%= x %><br />
+
+<a href= "/new"> Add new book </a><br />

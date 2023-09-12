@@ -1,6 +1,8 @@
 class BooksController < ApplicationController
 
   def index
+    @created_by = "Maribel"
+    @tasks = ['Fold Laundry', 'Sweep porch', 'Mow lawn']
   end
 
   def new 
