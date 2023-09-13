@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   match 'show', to: "books#show", via: :get
   match 'delete', to: "books#delete", via: :get
 
-  get 'main/index'
+  get 'books/index'
   get 'tasks/index'
   get 'tasks/new'
   get 'tasks/edit'

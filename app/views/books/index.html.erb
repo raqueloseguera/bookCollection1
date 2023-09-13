@@ -3,6 +3,9 @@
 
 <p> Application made by <%= @created_by %> </p>
 
+
+<%= link_to('Show', {action: 'show', title: 'The rainbow fish', author: 'Marcus Pfister', price: 7.95, published: 1992 }) %><br />
+
 <br /> 
 <ul>
 <% @tasks.each do |task| %>

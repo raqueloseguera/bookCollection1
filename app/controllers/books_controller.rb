@@ -9,6 +9,10 @@ class BooksController < ApplicationController
   end
 
   def show
+    @title = params[:title]
+    @author = params[:author]
+    @price = params[:price]
+    @published = params[:date]
   end
 
   def Update 
